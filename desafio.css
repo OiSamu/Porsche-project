@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imagem-logo{
+    width: 260px;
+    position: absolute;
+    top: 100px;
+    gap: 10px;
+}
+.caixa-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.caixa-texto{
+    font-family: 'Alumni Sans SC', sans-serif;
+    font-weight: 900;
+    position: absolute;
+    top: 230px;
+    height: 200px;
+    gap: 10px;
+
+}
+.imagem-fundo{
+    width: 1500px;
+}
+.header{
+    height: 75px;
+    display: flex;
+    gap: 50px;
+}
